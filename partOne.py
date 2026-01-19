@@ -7,4 +7,4 @@ def myFunction(text): #text instaed of slow as to not confuse program, text is j
 main()
 
 
-urhfd
+
