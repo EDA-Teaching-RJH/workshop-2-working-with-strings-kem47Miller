@@ -9,7 +9,7 @@ def main():
     
 #TO DO
 def pythag(A,B):
-    C=math.sqrt(A**2 + B**2)
+    C=math.sqrt(A**2 + B**2) #format math.sqrt() and ** is ^
     return C
 #TO DO
 main()
