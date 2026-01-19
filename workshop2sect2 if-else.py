@@ -12,6 +12,6 @@ def main():
     guess = int(input("Guess a number from 1 to 10: "))
     secret_number = random.randint(1, 10)
     num(guess, secret_number)
-    print(secret_number)
+    print(f"The actual number was: {secret_number}")
 
 main()  
