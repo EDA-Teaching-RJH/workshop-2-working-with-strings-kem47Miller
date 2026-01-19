@@ -3,12 +3,25 @@ def main():
     percent = percent_to_float(input("What percentage would you like to charge? "))
     charge = pounds * percent
     print(f"Charge £{charge:.2f}")
-
-
 def pounds_to_float(d):
-    # TODO
-
+    return float(d.replace("£", "")) #replace £ with no space/nothing.make d a float. return
+    
+# TODO
 def percent_to_float(p):
+    return float(p.replace("%", ""))/100 #replace, float, return, everything/100
+# TODO
+main()
+#def main():
+    #pounds = pounds_to_float(input("How much was the meal? "))
+    #percent = percent_to_float(input("What percentage would you like to charge? "))
+    #charge = pounds * percent
+    #print(f"Charge £{charge:.2f}")
+
+
+#def pounds_to_float(d):
     # TODO
 
-main()
+#def percent_to_float(p):
+    # TODO
+
+#main()
